@@ -1,4 +1,4 @@
-import classes from './EventsList.module.css';
+import classes from "./EventsList.module.css";
 
 function EventsList({ events }) {
   return (
