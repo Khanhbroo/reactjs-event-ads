@@ -17,8 +17,6 @@ const ErrorPage = () => {
     message = "Could not find resource or page.";
   }
 
-  console.log("ERROR PAGE", error);
-
   return (
     <PageContent title={title}>
       <p>{message}</p>
